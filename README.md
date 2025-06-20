@@ -27,7 +27,7 @@ Une application simple pour convertir des fichiers Cherrytree (.ctb) en fichiers
 Pour construire l'application depuis les sources :
 
 ```bash
-git clone https://github.com/VOTRE_USERNAME/CTB2MD.git
+git clone https://github.com/Polyx10/CTB2MD.git
 cd CTB2MD
 ./create_app.sh
 ```
