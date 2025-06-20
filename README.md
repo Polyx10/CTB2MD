@@ -1,5 +1,9 @@
 # CTB2MD - Cherrytree to Markdown Converter / Convertisseur Cherrytree vers Markdown
 
+[![Release](https://img.shields.io/github/v/release/Polyx10/CTB2MD)](https://github.com/Polyx10/CTB2MD/releases)
+[![License](https://img.shields.io/github/license/Polyx10/CTB2MD)](https://github.com/Polyx10/CTB2MD/blob/main/LICENSE)
+[![macOS](https://img.shields.io/badge/platform-macOS-blue)](https://github.com/Polyx10/CTB2MD/releases)
+
 [English]
 
 A simple application to convert Cherrytree (.ctb) files to Markdown (.md) files, specifically designed for macOS.
@@ -81,6 +85,26 @@ cd CTB2MD
 - macOS
 - Python 3.x
 - tkinter (inclus avec Python)
+
+## Screenshots / Captures d'écran
+
+[English]
+Screenshots will be added soon. The application features:
+- Clean and simple interface
+- Dark mode support
+- Progress feedback
+- Direct access to converted files
+
+[Français]
+Les captures d'écran seront ajoutées prochainement. L'application propose :
+- Interface simple et épurée
+- Support du mode sombre
+- Retour sur la progression
+- Accès direct aux fichiers convertis
+
+## Star History / Historique des étoiles
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Polyx10/CTB2MD&type=Date)](https://star-history.com/#Polyx10/CTB2MD&Date)
 
 ## License / Licence
 
