@@ -10,6 +10,26 @@
 
 CTB2MD is a powerful yet simple tool designed to help users migrate their notes from Cherrytree (.ctb) to Obsidian-compatible Markdown (.md). Perfect for knowledge base migration, this macOS application preserves your note structure, formatting, and command blocks while converting to clean Markdown that works flawlessly in Obsidian.
 
+### Note de sécurité
+
+⚠️ **Important** : Au premier lancement de CTB2MD, macOS peut afficher un avertissement de sécurité indiquant "Impossible d'ouvrir CTB2MD car le développeur ne peut pas être vérifié". C'est normal pour les applications open-source. Pour résoudre cela :
+1. Allez dans Réglages Système → Confidentialité et sécurité
+2. Faites défiler jusqu'à l'avertissement de sécurité concernant CTB2MD
+3. Cliquez sur "Ouvrir quand même"
+4. Confirmez votre choix
+
+Pour plus d'informations, consultez [le guide d'assistance Apple sur l'ouverture d'applications de développeurs non identifiés](https://support.apple.com/fr-fr/guide/mac-help/mh40616/mac).
+
+### Security Notice
+
+⚠️ **Important**: When first launching CTB2MD, macOS might show a security warning saying "CTB2MD cannot be opened because the developer cannot be verified". This is normal for open-source applications. To resolve this:
+1. Go to System Settings → Privacy & Security
+2. Scroll down to the security warning about CTB2MD
+3. Click "Open Anyway"
+4. Confirm your choice
+
+For more information, see [Apple's support guide about opening apps from unidentified developers](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac).
+
 ## Features
 
 - Simple GUI with file selector
