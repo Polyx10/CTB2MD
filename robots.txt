@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://polyx10.github.io/CTB2MD/sitemap.xml
