@@ -4,7 +4,9 @@ layout: default
 
 # Migrate Your Notes from Cherrytree to Obsidian [macOS Only]
 
-CTB2MD is the perfect tool for users looking to migrate their knowledge base from Cherrytree to Obsidian while preserving their notes' structure and formatting.
+⚠️ **This is a macOS-only application**
+
+CTB2MD is the perfect tool for macOS users looking to migrate their knowledge base from Cherrytree to Obsidian while preserving their notes' structure and formatting.
 
 ## Why Choose CTB2MD?
 
@@ -15,6 +17,13 @@ CTB2MD is the perfect tool for users looking to migrate their knowledge base fro
 - 🛠️ **Command Block Support**: Special handling for command blocks
 - 📦 **Free & Open Source**: No cost, no strings attached
 
+## System Requirements
+
+- macOS 10.15 (Catalina) or later
+- Apple Silicon (M1/M2) or Intel processor
+- 50MB free disk space
+- Python 3.x (included in macOS)
+
 ## Quick Start
 
 1. Download the latest release
@@ -22,6 +31,13 @@ CTB2MD is the perfect tool for users looking to migrate their knowledge base fro
 3. Launch CTB2MD
 4. Select your .ctb file
 5. Get your perfectly converted Markdown files!
+
+## Not Compatible With
+
+- ❌ Windows
+- ❌ Linux
+- ❌ Chrome OS
+- ❌ Mobile devices
 
 ## Perfect For
 
