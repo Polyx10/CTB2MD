@@ -17,6 +17,17 @@ CTB2MD is the perfect tool for macOS users looking to migrate their knowledge ba
 - 🛠️ **Command Block Support**: Special handling for command blocks
 - 📦 **Free & Open Source**: No cost, no strings attached
 
+## Security Notice
+
+⚠️ **Important**: When first launching CTB2MD, macOS might show a security warning saying "CTB2MD cannot be opened because the developer cannot be verified". This is normal for open-source applications. To resolve this:
+
+1. Go to System Settings → Privacy & Security
+2. Scroll down to the security warning about CTB2MD
+3. Click "Open Anyway"
+4. Confirm your choice
+
+For more information, see [Apple's support guide about opening apps from unidentified developers](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac).
+
 ## System Requirements
 
 - macOS 10.15 (Catalina) or later
