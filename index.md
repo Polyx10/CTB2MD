@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Migrate Your Notes from Cherrytree to Obsidian
+# Migrate Your Notes from Cherrytree to Obsidian [macOS Only]
 
 CTB2MD is the perfect tool for users looking to migrate their knowledge base from Cherrytree to Obsidian while preserving their notes' structure and formatting.
 
