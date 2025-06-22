@@ -8,7 +8,21 @@
 
 [English]
 
-CTB2MD is a powerful yet simple tool designed to help users migrate their notes from Cherrytree (.ctb) to Obsidian-compatible Markdown (.md). Perfect for knowledge base migration, this macOS application preserves your note structure, formatting, and command blocks while converting to clean Markdown that works flawlessly in Obsidian.
+⚠️ **IMPORTANT: This is a macOS-only application**
+
+CTB2MD is a powerful yet simple tool designed to help macOS users migrate their notes from Cherrytree (.ctb) to Obsidian-compatible Markdown (.md). Perfect for knowledge base migration on Apple computers, this native application preserves your note structure, formatting, and command blocks while converting to clean Markdown that works flawlessly in Obsidian.
+
+### System Requirements
+- macOS 10.15 (Catalina) or later
+- Apple Silicon (M1/M2) or Intel processor
+- 50MB free disk space
+- Python 3.x (included in macOS)
+
+### Not Compatible With
+- Windows
+- Linux
+- Chrome OS
+- Mobile devices
 
 ## Features
 
@@ -50,7 +64,21 @@ cd CTB2MD
 
 [Français]
 
+⚠️ **IMPORTANT : Cette application fonctionne uniquement sur macOS**
+
 Une application simple pour convertir des fichiers Cherrytree (.ctb) en fichiers Markdown (.md), spécialement conçue pour macOS.
+
+### Configuration requise
+- macOS 10.15 (Catalina) ou plus récent
+- Processeur Apple Silicon (M1/M2) ou Intel
+- 50 Mo d'espace disque
+- Python 3.x (inclus avec macOS)
+
+### Non compatible avec
+- Windows
+- Linux
+- Chrome OS
+- Appareils mobiles
 
 ## Fonctionnalités
 
