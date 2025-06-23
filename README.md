@@ -69,6 +69,10 @@ cd CTB2MD
 
 ## Changelog
 
+### v1.0.2
+- Nouvelle icône de l'application
+- Interface plus épurée
+
 ### v1.0.1
 - Improved user experience:
   - Removed debug window for cleaner interface
@@ -102,6 +106,10 @@ Une application simple pour convertir des fichiers Cherrytree (.ctb) en fichiers
 3. Les fichiers Markdown seront créés dans un nouveau dossier à côté du fichier source
 
 ## Historique des versions
+
+### v1.0.2
+- Nouvelle icône de l'application
+- Interface plus épurée
 
 ### v1.0.1
 - Amélioration de l'expérience utilisateur :
