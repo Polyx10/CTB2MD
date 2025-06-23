@@ -67,6 +67,14 @@ cd CTB2MD
 - Python 3.x
 - tkinter (included with Python)
 
+## Changelog
+
+### v1.0.1
+- Improved user experience:
+  - Removed debug window for cleaner interface
+  - Streamlined conversion process
+  - Enhanced success messages
+
 ---
 
 [Français]
@@ -92,6 +100,14 @@ Une application simple pour convertir des fichiers Cherrytree (.ctb) en fichiers
 1. Double-cliquez sur CTB2MD.app
 2. Sélectionnez votre fichier .ctb à convertir
 3. Les fichiers Markdown seront créés dans un nouveau dossier à côté du fichier source
+
+## Historique des versions
+
+### v1.0.1
+- Amélioration de l'expérience utilisateur :
+  - Suppression de la fenêtre de débogage pour une interface plus épurée
+  - Processus de conversion simplifié
+  - Messages de succès améliorés
 
 ## Développement
 
