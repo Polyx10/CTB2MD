@@ -34,9 +34,6 @@ class CTB2MD:
         return content
 
     def convert_file(self, input_path):
-        # Liste pour stocker les informations de débogage
-        debug_info = []
-        
         try:
             # Créer le dossier de sortie (même nom que le fichier sans extension)
             output_dir = os.path.splitext(input_path)[0]
@@ -49,17 +46,9 @@ class CTB2MD:
                 # Examiner la structure de la table
                 cursor.execute("PRAGMA table_info(node)")
                 columns = cursor.fetchall()
-                debug_info.append("Colonnes disponibles: " + str([col[1] for col in columns]))
-                
                 # Récupérer tous les nœuds avec toutes les colonnes
                 cursor.execute("SELECT * FROM node ORDER BY node_id")
                 nodes = cursor.fetchall()
-                
-                # Afficher un exemple de contenu pour debug
-                if nodes:
-                    debug_info.append("\nExemple de contenu du premier nœud:")
-                    for i, col in enumerate(columns):
-                        debug_info.append(f"{col[1]}: {nodes[0][i]}")
                 
                 # Convertir chaque nœud
                 for node in nodes:
@@ -167,9 +156,6 @@ class CTB2MD:
                     with open(f"{output_dir}/{safe_name}.md", 'w', encoding='utf-8') as f:
                         f.write(f"# {name}\n\n{content if content else ''}")
             
-            # Afficher les informations de débogage
-            self.show_debug_info("\n".join(debug_info))
-            
             messagebox.showinfo("Succès", f"Conversion terminée ! Les fichiers ont été créés dans :\n{output_dir}")
             
             # Proposer d'ouvrir le dossier
@@ -179,17 +165,6 @@ class CTB2MD:
         except Exception as e:
             messagebox.showerror("Erreur", f"Erreur lors de la conversion :\n{str(e)}")
     
-    def show_debug_info(self, info_text):
-        debug_window = tk.Toplevel()
-        debug_window.title("Informations de débogage")
-        debug_window.geometry("600x400")
-        
-        text_widget = tk.Text(debug_window, wrap=tk.WORD)
-        text_widget.pack(expand=True, fill='both')
-        text_widget.insert('1.0', info_text)
-        
-        ok_button = ttk.Button(debug_window, text="OK", command=debug_window.destroy)
-        ok_button.pack(pady=10)
 
 if __name__ == '__main__':
     CTB2MD()
