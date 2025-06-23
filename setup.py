@@ -10,6 +10,7 @@ OPTIONS = {
     'plist': {
         'CFBundleName': 'CTB2MD',
         'CFBundleDisplayName': 'CTB2MD',
+        'CFBundleName': 'CTB2MD',
         'CFBundleIdentifier': 'com.polyx10.ctb2md',
         'CFBundleVersion': '1.0.0',
         'CFBundleShortVersionString': '1.0.0',
