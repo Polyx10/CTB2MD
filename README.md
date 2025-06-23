@@ -5,6 +5,7 @@
 [![macOS](https://img.shields.io/badge/platform-macOS-blue)](https://github.com/Polyx10/CTB2MD/releases)
 [![Obsidian](https://img.shields.io/badge/tool-obsidian-purple)](https://obsidian.md)
 [![Cherrytree](https://img.shields.io/badge/convert-cherrytree-red)](https://www.giuspen.net/cherrytree/)
+[![Download CTB2MD](https://img.shields.io/sourceforge/dt/ctb2md.svg)](https://sourceforge.net/projects/ctb2md/files/latest/download)
 
 [English]
 
